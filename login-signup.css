@@ -1,0 +1,63 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 55px 0px 0px 150px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3.8vw;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.7vw;
+}
+
+#login-error, #signup-error{
+    color: red;
+}
+
+.instructions{
+    margin-top: -2vw;
+}
+
+a {
+    color: #9b9f34;
+    text-decoration: none;
+}
+
+div label {
+    font-size: 1.8vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+label input {
+    width: 45vw;
+    padding: 1vw;
+    border: 1px solid #c9c8c7;
+    border-radius: 3px;
+}
+
+span {
+    margin-bottom: 1.5vw;
+}
+
+button {
+    padding: 1.2vw 1.5vw;
+    background-color:rgb(85, 132, 75);;
+    font-weight: 100;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+#reset-btn {
+    background-color: gray;
+}
